@@ -6,7 +6,7 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-size: 29 px;
+    font-size: 29 pt;
     color: #255295;
 }
 
@@ -26,13 +26,34 @@ body {
       height: 100vh;
   }
 
-  .header {
+.header {
       width: 100%;
 
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      
+}
 
-  }
+.nav {
+    /* display: flexbox;
+    justify-content: space-between; нужно другое размещение для меню*/
+
+    font-size: 15pt;
+    text-transform: uppercase;
+
+    transition: color .2s linear;
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+
+    color: #940303;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #005198;
+}
