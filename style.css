@@ -38,12 +38,14 @@ body {
     transition: color .2s linear;
 }
 
-.nav-list {
+.nav-list,
+.contacts-list {
     display: inline;
     list-style-type: none;
 }
 
-.nav-item {
+.nav-item,
+.contacts-item {
     display: inline;
     padding: 15px; 
 }
@@ -143,17 +145,40 @@ body {
     margin: 0px 25px 15px 0px;
 }
 #contacts {
-
+  
 }
 
 .contacts-item {
-
+    top: 3px;
+ 
 }
 
-.contacts-link
-/* .contacts-item:nth-child(2):before {
+/* .contacts-list:nth-child(2):before {
     top: 3px;
     left: 0px;
     width: 21px;
     height: 21px;
-    background-image: url(assets/img/icon-email.png); */
+    background-image: url(assets/img/icon-email.png);
+} */
+
+.contacts-list{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+
+    font-size: 22px;
+}
+
+.contacts-link {
+    text-decoration: none;
+}
+
+.icon {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.contacts-link:hover {
+    color: #98d8f7;
+}
