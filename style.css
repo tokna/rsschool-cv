@@ -23,6 +23,7 @@ body {
 .header {
       width: 100%;
       height: 350px;
+      position: relative;
       background-color: #98d8f7;
 }
 
@@ -161,7 +162,8 @@ body {
     font-size: 22px;
 }
 
-.contacts-link {
+.contacts-link,
+.project-link {
     text-decoration: none;
     color: #255295;
 }
@@ -192,6 +194,7 @@ body {
 .h2-name {
     padding-top: 15px;
     margin-left: 50px;
+    margin-bottom: 0px;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -218,6 +221,14 @@ body {
     margin: 35px 0px;
 }
 
+.project-link:hover {
+    color: #ffffff;
+}
+
+.project-name {
+    font-size: 50px;
+}
+
 #education {
     border-radius: 0px 55px 55px 0px;
 }
@@ -227,10 +238,12 @@ body {
     padding-top: 0px;
 }
 
-.code,
+
+.code-example,
+.project-section,
 .skills-list,
 .education-text {
-margin-left: 50px;
+    margin-left: 50px;
 }
 
 #languages {
