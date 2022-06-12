@@ -61,6 +61,13 @@ body {
     color: #005198;
 }
 
+.name-position-photo {
+    display: block;
+    right: 50px;
+    position: absolute;
+    width: 421px;
+}
+
 .name-position {
     display: flex;
     flex-direction: column;
@@ -68,6 +75,7 @@ body {
 
     margin-left: 50px;
 }
+
 .h1-name {
     margin: 0px;
     padding: 0px;
@@ -92,14 +100,6 @@ body {
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 12px;
-}
-
-.name-position-photo {
-    display: block;
-    top: -105px;
-    right: -17px;
-    position: absolute;
-    width: 750px;
 }
 
 .header-position {
