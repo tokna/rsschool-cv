@@ -144,11 +144,10 @@ body {
 .about-me-text {
     margin: 0px 25px 15px 0px;
 }
-#contacts {
-  
-}
 
 .contacts-item {
+    display: flex;
+    align-items: center;
     top: 3px;
  
 }
@@ -171,6 +170,7 @@ body {
 
 .contacts-link {
     text-decoration: none;
+    color: #255295;
 }
 
 .icon {
