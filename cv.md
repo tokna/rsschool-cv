@@ -14,7 +14,7 @@ Volodymyr Vynnychenko Central Ukrainian State Pedagogical
 
 =================================
 
-**# Code**
+**## Code**
 ```
 function multiply(a,b) {
          return a * b;
@@ -22,7 +22,7 @@ function multiply(a,b) {
 ```
 =================================
 
-**# Language**
+**## Language**
 English - Elementary
 Ukrainian - Native
 Russian - Fluent
