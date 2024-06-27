@@ -6,8 +6,8 @@
 3. JS(study) 3
 
 ## **Contact**
-Phone: +000000000000
-Address: my house
+* Phone: +000000000000 1
+* Address: my house 2
 
 ## **Education**
 * self-study 1
